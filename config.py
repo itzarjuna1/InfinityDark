@@ -51,18 +51,18 @@ autoclean = []
 confirmer = {}
 
 # Image URLs
-START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/998d2db9c003c1625178c-21d9359fc3b61485f7.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png")
-PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
-STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/9sx30u.jpg")
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/m1cye7.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/1ligtm.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/wyk2qj.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/d52nnr.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/12c791.jpg"
+STREAM_IMG_/URL = "https://files.catbox.moe/p6iyy9.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ambjn5.MP4"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/713bbq.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/ambjn5.MP4"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/ambjn5.MP4"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ambjn5.MP4"
 
 # Time converter
 def time_to_seconds(time):
