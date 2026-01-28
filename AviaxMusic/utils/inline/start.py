@@ -32,10 +32,12 @@ def private_panel(_):
         [
             InlineKeyboardButton(text="💌 ʏᴛ-ᴀᴘɪ", callback_data="bot_info_data"),
             InlineKeyboardButton(text="🌙 ᴍɪɴɪ-ᴀᴘᴘ",url=f"https://dark-music-player-silk.vercel.app"),
+        ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
             InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
         ],
     ]
     return buttons
+
 
