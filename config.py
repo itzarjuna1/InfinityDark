@@ -6,12 +6,12 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = 
-API_HASH = ""
+API_ID = 34594672
+API_HASH = "a008e5018b8662e872be5a8670db4840"
 BOT_TOKEN = ""
-MONGO_DB_URI = ""
-OWNER_ID = 7926944005
-LOG_GROUP_ID = -1002777786186
+MONGO_DB_URI = "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+OWNER_ID = 7651303468
+LOG_GROUP_ID = -1003228624224
 
 # Optional / deployment-related
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
