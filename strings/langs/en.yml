@@ -151,14 +151,12 @@ play_17 : "𝖯𝗅𝖾𝖺𝗌𝖾 𝖳𝗎𝗋𝗇 𝖮𝗇 𝖵𝗂𝖽𝖾�
 play_18 : "<b>𝖴𝗌𝖺𝗀𝖾 :</b> /play [ 𝖲𝗈𝗇𝗀 𝖭𝖺𝗆𝖾 / 𝖸𝗈𝗎𝖳𝗎𝖻𝖾 𝖴𝗋𝗅 / 𝖱𝖾𝗉𝗅𝗒 𝖳𝗈 𝖠 𝖠𝗎𝖽𝗂𝗈 / 𝖵𝗂𝖽𝖾𝗈 𝖥𝗂𝗅𝖾 ]"
 play_19 : "𝖰𝗎𝖾𝗎𝖾𝖽 𝖯𝗅𝖺𝗒𝗅𝗂𝗌𝗍 :"
 play_20 : "𝖰𝗎𝖾𝗎𝖾𝖽 𝖯𝗈𝗌𝗂𝗍𝗂𝗈𝗇 -"
-Play_21 : (
-    "<blockquote><b>❀≽ 𝐀ɗɗɘɗ 𝐓σ 𝐐ʋɘʋɘ ✭ Ʌʈ {0}</b></blockquote>\n"
-    "<blockquote><b>✯ 𝐓ɩttɭ𝛆 »</b> {1}\n"
-    "<b>✬ 𝐃ʋɽɑʈɩσŋ »</b> <i>{2}</i> 𝐌ɪηᴜᴛєѕ\n"
-    "<b>✭ 𝐁ɣ »</b> {3}</blockquote>\n"
-    "<blockquote><b>✬ 𝐏ᴏᴡєʀєᴅ 𝐁ɣ ➛</b> <a href='https://t.me/dark_musictm'>˹ ɪɴꜰɪɴɪᴛʏ ꭙ ʙσᴛs ˼ 🎧</a></blockquote>"
-)
-
+Play_21: |
+  <blockquote><b>❀≽ 𝐀ɗɗɘɗ 𝐓σ 𝐐ʋɘʋɘ ✭ Ʌʈ {0}</b></blockquote>
+  <blockquote><b>✯ 𝐓ɩttɭ𝛆 »</b> {1}
+  <b>✬ 𝐃ʋɽɑʈɩσŋ »</b> <i>{2}</i> 𝐌ɪηᴜᴛєѕ
+  <b>✭ 𝐁ɣ »</b> {3}</blockquote>
+  <blockquote><b>✬ 𝐏ᴏᴡєʀєᴅ 𝐁ɣ ➛</b> <a href='https://t.me/dark_musictm'>˹ ɪɴꜰɪɴɪᴛʏ ꭙ ʙσᴛs ˼ 🎧</a></blockquote>
 play_22 : "𝖲𝖾𝗅𝖾𝖼𝗍 𝖳𝗁𝖾 𝖬𝗈𝖽𝖾 𝖨𝗇 𝖶𝗁𝗂𝖼𝗁 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖳𝗈 𝖯𝗅𝖺𝗒 𝖳𝗁𝖾 𝖰𝗎𝖾𝗋𝗂𝖾𝗌 𝖨𝗇𝗌𝗂𝖽𝖾 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 : {0}"
 
 str_1 : "𝖯𝗅𝖾𝖺𝗌𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾𝖽 𝖬3𝖴8 𝖮𝗋 𝖨𝗇𝖽𝖾𝗑 𝖫𝗂𝗇𝗄𝗌 ."
@@ -184,14 +182,12 @@ queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> 𝖴𝗇𝗄𝗇𝗈𝗐𝗇 𝖣
 queue_7 : "\n𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇 𝖡𝖾𝗅𝗈𝗐 𝖳𝗈 𝖦𝖾𝗍 𝖶𝗁𝗈𝗅𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖫𝗂𝗌𝗍 ."
 queue_8 : "<b>{0} 𝖯𝗅𝖺𝗒𝖾𝗋</b>\n\n🎄 <b>𝖲𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 :</b> {1}\n\n🔗 <b>𝖲𝗍𝗋𝖾𝖺𝗆 𝖳𝗒𝗉𝖾 :</b> {2}\n🥀 <b> 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖡𝗒 :</b> {3}\n{4}"
 
-Stream_1 = (
-    "<blockquote><b>✮ 𝐒ʈᴧʀʈ𝛆ɗ 𝐒ʈʀ𝛆ɑɱɩŋʛ 𝐍๏Ꮗ ✮</b></blockquote>\n"
-    "<blockquote><b>✯ 𝐓ɩttɭ𝛆 »</b> {1}\n"
-    "<b>✬ 𝐃ʋɽɑʈɩσŋ »</b> <i>{2}</i> 𝐌ɪηᴜᴛєs\n"
-    "<b>✭ 𝐁ɣ »</b> {3}</blockquote>\n"
-    "<blockquote><b>❖ 𝐌ᴧᴅє 𝐁ɣ ➛</b> <a href='https://t.me/dark_musictm'>˹ ɪɴꜰɪɴɪᴛʏ ꭙ ʙσᴛs ˼ 🎧</a></blockquote>"
-)
-
+Stream_1: |
+  <blockquote><b>✮ 𝐒ʈᴧʀʈ𝛆ɗ 𝐒ʈʀ𝛆ɑɱɩŋʛ 𝐍๏Ꮗ ✮</b></blockquote>
+  <blockquote><b>✯ 𝐓ɩttɭ𝛆 »</b> {1}
+  <b>✬ 𝐃ʋɽɑʈɩσŋ »</b> <i>{2}</i> 𝐌ɪηᴜᴛєs
+  <b>✭ 𝐁ɣ »</b> {3}</blockquote>
+  <blockquote><b>❖ 𝐌ᴧᴅє 𝐁ɣ ➛</b> <a href='https://t.me/dark_musictm'>˹ ɪɴꜰɪɴɪᴛʏ ꭙ ʙσᴛs ˼ 🎧</a></blockquote>
 stream_2 : "➜ <b>𝖲𝗍𝖺𝗋𝗍𝖾𝖽 𝖲𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 |</b>\n\n<b>‣ 𝖲𝗍𝗋𝖾𝖺𝗆 𝖳𝗒𝗉𝖾 :</b> 𝖫𝗂𝗏𝖾 𝖲𝗍𝗋𝖾𝖺𝗆 [ 𝖴𝗋𝗅 ]\n<b>‣ 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖡𝗒 :</b> {0}"
 
 
