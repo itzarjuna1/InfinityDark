@@ -1,6 +1,9 @@
-import uvloop
+import asyncio
 
-uvloop.install()
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
 
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
@@ -55,3 +58,4 @@ class Aviax(Client):
 
     async def stop(self):
         await super().stop()
+
