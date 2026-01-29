@@ -165,7 +165,8 @@ queue_1 : "𝖥𝖾𝗍𝖼𝗁𝗂𝗇𝗀 𝖰𝗎𝖾𝗎𝖾 ...\n\n𝖯𝗅
 queue_2 : "𝖰𝗎𝖾𝗎𝖾 𝖤𝗆𝗉𝗍𝗒 ."
 queue_3: "<u>» 𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾 𝖳𝗈 𝖢𝗁𝖾𝖼𝗄 𝖳𝗁𝖾 𝖫𝗂𝗌𝗍 𝖮𝖿 𝖳𝗁𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖳𝗋𝖺𝖼𝗄𝗌 :</u> <a href=\"{0}\">𝖧𝖾𝗋𝖾</a>\n\n<blockquote>❀≽ 𝐀ɗɗɘɗ 𝐓σ 𝐐ʋɘʋɘ ✭ Ʌʈ {1}</blockquote>"
 queue_4: | 
-<blockquote><b>✯ 𝐓ɩttɭ𝛆 »</b> {1}<br>
+<blockquote>
+<b>✯ 𝐓ɩttɭ𝛆 »</b> {1}<br>
 <b>✬ 𝐃ʋɽɑʈɩσŋ »</b> <i>{2}</i> 𝐌ɪηᴜᴛєs<br>
 <b>✭ 𝐁ɣ »</b> {3}<br></blockquote>
 <blockquote>
