@@ -7,7 +7,7 @@ from pyrogram import filters
 import config
 from AviaxMusic.core.mongo import mongodb
 
-from .logging import LOGGER
+from AviaxMusic.logger_utils import LOGGER
 
 SUDOERS = filters.user()
 

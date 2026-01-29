@@ -1,6 +1,6 @@
 import os
 
-from ..logging import LOGGER
+from AviaxMusic.logger import LOGGER
 
 
 def dirr():

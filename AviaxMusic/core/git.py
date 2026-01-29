@@ -7,7 +7,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 
 import config
 
-from ..logging import LOGGER
+from AviaxMusic.logger import LOGGER
 
 
 def install_req(cmd: str) -> Tuple[str, str, int, int]:

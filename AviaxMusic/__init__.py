@@ -18,7 +18,7 @@ from AviaxMusic.core.git import git
 from AviaxMusic.core.userbot import Userbot
 from AviaxMusic.misc import dbb, heroku
 
-from .logging import LOGGER
+from AviaxMusic.logger_utils import LOGGER
 
 dirr()
 git()

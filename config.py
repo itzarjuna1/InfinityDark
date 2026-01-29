@@ -8,7 +8,7 @@ load_dotenv()
 # Required credentials
 API_ID = 34594672
 API_HASH = "a008e5018b8662e872be5a8670db4840"
-BOT_TOKEN = ""
+BOT_TOKEN = "8369474140:AAHruyXme4KIS1gcHjWhmEP6EokKnhW_iGE"
 MONGO_DB_URI = "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 OWNER_ID = 7651303468
 LOG_GROUP_ID = -1003228624224
@@ -37,7 +37,7 @@ PLAYLIST_FETCH_LIMIT = int(os.getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(os.getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(os.getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
-STRING1 = os.getenv("STRING_SESSION1", "")
+STRING1 = os.getenv("STRING_SESSION1", "AQIP33AANEizZ3BxPJi5EJg2Iyr75eKBEMT2CtpM2RFBIfOXeBVGgTj2fVVGLS2mDimjibRErtVS1ZDRJ3RwcIG8RrOiEsr95lcGZh_8MMBuB1usugJd5ILTmavBSNAdXokceODHf1CGC3uOnlSw_8oEAkHk8O7tu_V3LUfNHYZ33aRW-cabo3R9U5KL349PcrgyF4UhOF77RROS6nRIegO0G1rtQHEFslaWJ27opnD2pVmOYnr3ToLIykCAgHsH3lZnNFehwp_viBAaqnH650x4UEiJfRkZha6mEa1tdtJ_2pzOMEg9LoR2yahLvG_Cd_MKVVOZAwWE17SoqQ64O6QZtNchrgAAAAHN07JeAA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
@@ -75,3 +75,5 @@ if SUPPORT_CHANNEL and not re.match("(?:http|https)://", SUPPORT_CHANNEL):
 
 if SUPPORT_GROUP and not re.match("(?:http|https)://", SUPPORT_GROUP):
     raise SystemExit("[ERROR] - Your SUPPORT_GROUP url is wrong. It must start with https://")
+
+YOUTUBE_API_KEY = "AIzaSyBfC8u7Vl4vcjRHhujeiggmaB4eGe0G1xI"

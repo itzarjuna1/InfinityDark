@@ -4,3 +4,11 @@ cache/
 log.txt
 cookies/
 strings/
+.env
+venv/
+node_modules/
+cookies.txt
+*.webm
+*.mp4
+*.mp3
+__pycache__/

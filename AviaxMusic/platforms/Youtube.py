@@ -127,7 +127,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=1)
+        results = VideosSearch(link, limit=5)
         for result in (await results.next())["result"]:
             title = result["title"]
             duration_min = result["duration"]
@@ -144,7 +144,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=1)
+        results = VideosSearch(link, limit=5)
         for result in (await results.next())["result"]:
             title = result["title"]
         return title
@@ -154,7 +154,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=1)
+        results = VideosSearch(link, limit=5)
         for result in (await results.next())["result"]:
             duration = result["duration"]
         return duration
@@ -164,7 +164,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=1)
+        results = VideosSearch(link, limit=5)
         for result in (await results.next())["result"]:
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
         return thumbnail
@@ -212,7 +212,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=1)
+        results = VideosSearch(link, limit=5)
         for result in (await results.next())["result"]:
             title = result["title"]
             duration_min = result["duration"]
@@ -224,8 +224,8 @@ class YouTubeAPI:
             "link": yturl,
             "vidid": vidid,
             "duration_min": duration_min,
-            "thumb": thumbnail,
-        }
+            "thumb": thumbnail
+}
         return track_details, vidid
 
     async def formats(self, link: str, videoid: Union[bool, str] = None):
@@ -259,8 +259,8 @@ class YouTubeAPI:
                             "format_id": format["format_id"],
                             "ext": format["ext"],
                             "format_note": format["format_note"],
-                            "yturl": link,
-                        }
+                            "yturl": link
+}
                     )
         return formats_available, link
 
@@ -298,14 +298,14 @@ class YouTubeAPI:
         loop = asyncio.get_running_loop()
         def audio_dl():
             ydl_optssx = {
-                "format": "bestaudio/best",
+                "extractor_args": {"youtube": {"player_client": ["android"], "player_skip": ["webpage"]}},
                 "outtmpl": "downloads/%(id)s.%(ext)s",
                 "geo_bypass": True,
                 "nocheckcertificate": True,
                 "quiet": True,
                 "cookiefile" : cookie_txt_file(),
-                "no_warnings": True,
-            }
+                "no_warnings": True
+}
             x = yt_dlp.YoutubeDL(ydl_optssx)
             info = x.extract_info(link, False)
             xyz = os.path.join("downloads", f"{info['id']}.{info['ext']}")
@@ -316,14 +316,14 @@ class YouTubeAPI:
 
         def video_dl():
             ydl_optssx = {
-                "format": "(bestvideo[height<=?720][width<=?1280][ext=mp4])+(bestaudio[ext=m4a])",
+
                 "outtmpl": "downloads/%(id)s.%(ext)s",
                 "geo_bypass": True,
                 "nocheckcertificate": True,
                 "quiet": True,
                 "cookiefile" : cookie_txt_file(),
-                "no_warnings": True,
-            }
+                "no_warnings": True
+}
             x = yt_dlp.YoutubeDL(ydl_optssx)
             info = x.extract_info(link, False)
             xyz = os.path.join("downloads", f"{info['id']}.{info['ext']}")
@@ -333,7 +333,7 @@ class YouTubeAPI:
             return xyz
 
         def song_video_dl():
-            formats = f"{format_id}+140"
+            formats = None
             fpath = f"downloads/{title}"
             ydl_optssx = {
                 "format": formats,
@@ -344,8 +344,8 @@ class YouTubeAPI:
                 "no_warnings": True,
                 "cookiefile" : cookie_txt_file(),
                 "prefer_ffmpeg": True,
-                "merge_output_format": "mp4",
-            }
+                "merge_output_format": "mp4"
+}
             x = yt_dlp.YoutubeDL(ydl_optssx)
             x.download([link])
 
@@ -364,10 +364,10 @@ class YouTubeAPI:
                     {
                         "key": "FFmpegExtractAudio",
                         "preferredcodec": "mp3",
-                        "preferredquality": "192",
-                    }
-                ],
-            }
+                        "preferredquality": "192"
+}
+                ]
+}
             x = yt_dlp.YoutubeDL(ydl_optssx)
             x.download([link])
 
