@@ -51,8 +51,8 @@ autoclean = []
 confirmer = {}
 
 # Image URLs
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/frpk8m.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/h8e04a.jpg")
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/hzs0n2.jpg")
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/hzs0n2.jpg")
 PLAYLIST_IMG_URL = "https://files.catbox.moe/h8e04a.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/frpk8m.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/h8e04a.jpg"
