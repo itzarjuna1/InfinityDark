@@ -6,12 +6,12 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = 34594672
-API_HASH = "a008e5018b8662e872be5a8670db4840"
-BOT_TOKEN = "8369474140:AAHruyXme4KIS1gcHjWhmEP6EokKnhW_iGE"
+API_ID = 26950458
+API_HASH = "d818b8d530e4a9b209509815ab1b9c7c"
+BOT_TOKEN = ""
 MONGO_DB_URI = "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-OWNER_ID = 7651303468
-LOG_GROUP_ID = -1003228624224
+OWNER_ID = 7487670897
+LOG_GROUP_ID = -1002869205475
 
 # Optional / deployment-related
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
@@ -23,7 +23,7 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/dark_musictm")
 SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/snowy_hometown")
-PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/privacy-policy--aliya-music-bot-01-18")
+PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://telegra.ph/%F0%93%86%A9%E2%84%9B%E1%B4%8F%E1%B4%8F%CA%9C%C9%AA-%EA%AD%99-%F0%9D%90%8C%E1%B4%9Cs%C9%AA%E1%B4%84%F0%93%86%AA-02-02")
 
 DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 10000))
 DURATION_LIMIT = DURATION_LIMIT_MIN * 60
@@ -37,7 +37,7 @@ PLAYLIST_FETCH_LIMIT = int(os.getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(os.getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(os.getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
-STRING1 = os.getenv("STRING_SESSION1", "AQIP33AANEizZ3BxPJi5EJg2Iyr75eKBEMT2CtpM2RFBIfOXeBVGgTj2fVVGLS2mDimjibRErtVS1ZDRJ3RwcIG8RrOiEsr95lcGZh_8MMBuB1usugJd5ILTmavBSNAdXokceODHf1CGC3uOnlSw_8oEAkHk8O7tu_V3LUfNHYZ33aRW-cabo3R9U5KL349PcrgyF4UhOF77RROS6nRIegO0G1rtQHEFslaWJ27opnD2pVmOYnr3ToLIykCAgHsH3lZnNFehwp_viBAaqnH650x4UEiJfRkZha6mEa1tdtJ_2pzOMEg9LoR2yahLvG_Cd_MKVVOZAwWE17SoqQ64O6QZtNchrgAAAAHN07JeAA")
+STRING1 = os.getenv("STRING_SESSION1", "")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
